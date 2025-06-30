@@ -1,0 +1,53 @@
+========================================
+   YOUR API KEY SETUP INSTRUCTIONS
+========================================
+
+Your OpenAI API Key: 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
+
+STEP 1: Create .env file
+- Right-click in the project folder
+- Select "New" → "Text Document"
+- Name it ".env" (with the dot, no .txt extension)
+- If Windows asks about the extension, click "Yes"
+
+STEP 2: Add your configuration
+Copy and paste this exact content into the .env file:
+
+# OpenAI API Key (Required for AI features)
+OPENAI_API_KEY=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
+
+# Firebase Configuration (Optional - for cloud features)
+# REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
+# REACT_APP_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+# REACT_APP_FIREBASE_PROJECT_ID=your_project_id
+# REACT_APP_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
+# REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+# REACT_APP_FIREBASE_APP_ID=your_app_id
+
+# Google Analytics (Optional)
+# REACT_APP_GA_TRACKING_ID=G-XXXXXXXXXX
+
+# Server Configuration
+PORT=5000
+NODE_ENV=development
+
+# CORS Configuration
+CORS_ORIGIN=http://localhost:5173
+
+STEP 3: Save the file
+- Press Ctrl+S to save
+- Make sure the file is named ".env" (not ".env.txt")
+
+STEP 4: Test your setup
+- Open Command Prompt in the project folder
+- Run: npm install
+- Run: npm start (for backend)
+- Open new Command Prompt and run: npm run dev (for frontend)
+
+STEP 5: Verify it works
+- Go to http://localhost:5173
+- Try the AI optimization feature
+
+⚠️  SECURITY: Keep your API key private and never share it!
+
+======================================== 
